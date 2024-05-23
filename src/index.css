@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-black {
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 0.875rem; /* Increased font size for better readability */
+    color: black;
+    border-radius: 0.5rem; /* More practical border radius */
+    border: 1px solid black;
+    padding: 0.25rem 0.75rem; /* Added padding for better spacing */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    cursor: pointer; /* Pointer cursor for better UX */
+}
+
+.btn-black:hover {
+    background-color: black;
+    color: white;
+}
+

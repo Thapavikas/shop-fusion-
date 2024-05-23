@@ -1,0 +1,86 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+}
+
+.product-card {
+    box-shadow: 10px 5px 10px;
+    margin: 1rem;
+    width: 100%;
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.card-img-top {
+    width: 100%;
+
+}
+
+
+.card-footer {
+
+    width: calc(100% - 1rem);
+    display: inline-block;
+    position: relative;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+
+/* Styles for medium screens (tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .product-card {
+        width: 45%;
+        flex-direction: row;
+    }
+
+    .card-img-top {
+        width: 50%;
+    }
+
+    .cart-btn {
+        top: auto;
+        bottom: 1rem;
+        right: 1rem;
+        width: 20%;
+    }
+
+    .card-footer {
+        position: absolute;
+        top: 2rem;
+        right: 0.5rem;
+        width: 200px;
+    }
+}
+
+/* Styles for larger screens */
+@media (min-width: 768px) {
+    .product-card {
+        width: 30%;
+        flex-direction: row;
+    }
+
+    .card-img-top {
+        width: 50%;
+    }
+
+
+    .card-footer {
+        position: absolute;
+        top: 2rem;
+        right: 0.5rem;
+        width: 200px;
+    }
+}
+
+/* Styles for desktops */
+@media (min-width: 1024px) {
+    .product-card {
+        width: 30%;
+    }
+
+    .card-img-top {
+        width: 50%;
+    }
+}
