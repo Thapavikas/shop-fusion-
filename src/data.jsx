@@ -100,20 +100,9 @@ export const storeProducts = [
     count: 0,
     total: 0
   },
+
   {
     id: 9,
-    title: "MacBook Pro 2022 (M1)",
-    img: 'img/2.png',
-    price: 149925, // 1999 * 75
-    company: "APPLE",
-    info:
-      "The MacBook Pro 2022 with the M1 chip redefines performance and efficiency. Enjoy breathtaking speed, long battery life, and the high-quality Retina display for all your professional and personal needs.",
-    inCart: false,
-    count: 0,
-    total: 0
-  },
-  {
-    id: 10,
     title: "Canon M50 Camera",
     img: 'img/3.png',
     price: 52425, // 699 * 75
@@ -125,19 +114,7 @@ export const storeProducts = [
     total: 0
   },
   {
-    id: 11,
-    title: "WLS Van Gogh Denim Jacket",
-    img: 'img/4.png',
-    price: 17100, // 228 * 75
-    company: "WLS",
-    info:
-      "The WLS Van Gogh Denim Jacket combines art and fashion. Featuring iconic Van Gogh designs, this stylish and durable jacket is perfect for making a bold statement.",
-    inCart: false,
-    count: 0,
-    total: 0
-  },
-  {
-    id: 12,
+    id: 10,
     title: "LED Light Strips",
     img: 'img/5.png',
     price: 1499.25, // 19.99 * 75
@@ -149,7 +126,7 @@ export const storeProducts = [
     total: 0
   },
   {
-    id: 13,
+    id: 11,
     title: "SPECTRUM LS TEE",
     img: 'img/6.webp',
     price: 5100, // 68 * 75
@@ -161,25 +138,13 @@ export const storeProducts = [
     total: 0
   },
   {
-    id: 14,
+    id: 12,
     title: "AUTO SERVICE SHIRT by GOLF WANG",
     img: 'img/7.webp',
     price: 9000, // 120 * 75
     company: "GOLF WANG",
     info:
       "The AUTO SERVICE SHIRT by GOLF WANG offers a unique blend of style and comfort. Inspired by vintage auto service uniforms, it’s perfect for those who love to stand out with bold fashion choices.",
-    inCart: false,
-    count: 0,
-    total: 0
-  },
-  {
-    id: 15,
-    title: "DON'T TRIP UNSTRUCTURED HAT",
-    img: 'img/8.webp',
-    price: 3000, // 40 * 75
-    company: "GOLF WANG",
-    info:
-      "The DON'T TRIP UNSTRUCTURED HAT by GOLF WANG is a stylish and casual accessory. Made from high-quality materials, it’s perfect for adding a touch of personality to any outfit.",
     inCart: false,
     count: 0,
     total: 0
