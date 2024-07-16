@@ -117,7 +117,7 @@ export const storeProducts = [
     id: 10,
     title: "LED Light Strips",
     img: 'img/5.png',
-    price: 1499.25, // 19.99 * 75
+    price: 1499, // 19.99 * 75
     company: "GENERIC",
     info:
       "Enhance your space with these versatile LED Light Strips. Perfect for creating ambient lighting, they are easy to install and come with various color options to match your mood.",
