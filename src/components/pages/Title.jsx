@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useRef } from 'react'
+
 
 const Title = ({name,title}) => {
+
   return (
     <>
     <div className="row">

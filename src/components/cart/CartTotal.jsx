@@ -35,6 +35,10 @@ const CartTotal = ({value}) => {
                     Total : </span> <strong>₹ {cartTotal}</strong>
                 </h4>
                 </div>
+                <button class=" mr-3 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transform transition-transform duration-200 ease-in-out hover:scale-105">
+                    Pay: <strong>₹ {cartTotal}</strong>
+                </button>
+
             </div>
         </div>
     </div>
